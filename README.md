@@ -18,21 +18,25 @@ Este projeto foi desenvolvido com o framework Laravel e tem como objetivo ser av
 ```bash
 git clone https://github.com/JordanDeodato/desafio-toolzz-backend.git
 cd desafio-toolzz-backend
+```
 
 ### Passo 2: Instalar Dependências PHP
 
 ```bash
 composer install
+```
 
 ### Passo 3: Configurar o Ambiente
 
 ```bash
 cp .env.example .env
+```
 
 ### Passo 4: Gerar a Chave da Aplicação
 
 ```bash
 php artisan key:generate
+```
 
 ### Passo 6: Criação de um Banco de Dados
 
@@ -45,11 +49,13 @@ DB_PORT=3306
 DB_DATABASE=desafio-login
 DB_USERNAME=root
 DB_PASSWORD=root
+```
 
 ### Passo 6: Migrar Banco de Dados
 
 ```bash
 php artisan migrate
+```
 
 ### Passo 7: Iniciar o projeto
 
@@ -57,5 +63,6 @@ php artisan migrate
 
 ```bash
 php artisan serve
+```
 
 ### Pronto: Seu projeto está funcionando.
